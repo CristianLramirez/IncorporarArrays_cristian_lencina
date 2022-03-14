@@ -50,8 +50,11 @@ const eliminar_empleado = (Listado_empleados, id) => {
     } 
 }
 
+//Muestro el Array de empleados completo
+console.log(empleados);
+
 // ID de Empleado.
-id = 1132
+id = 1133
 
 // Pregunto si existe el ID.
 let result = existe_empleado(empleados, id);
